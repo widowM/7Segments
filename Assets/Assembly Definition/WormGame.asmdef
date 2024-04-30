@@ -1,0 +1,35 @@
+{
+    "name": "WormGame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:299beb10465c46f41abeaf10478b4727",
+        "GUID:2c573e6b271651846a79655161004c5b",
+        "GUID:613783dc1674e844b87788ea74ede0f6",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:62c4462a5cc10394888a201bceb704fd",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "EmbeddedLinux",
+        "LinuxStandalone64",
+        "WebGL",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DOTween.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

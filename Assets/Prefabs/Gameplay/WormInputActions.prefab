@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7299249861530999456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7134439608688494415}
+  - component: {fileID: 7225638646672232850}
+  - component: {fileID: 3905563449963453981}
+  - component: {fileID: 3113149723217525422}
+  m_Layer: 0
+  m_Name: WormInputActions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7134439608688494415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299249861530999456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7225638646672232850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299249861530999456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2345a26f1e18b4b9bddca03dcf55e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _worm: {fileID: 0}
+  _bombTagSO: {fileID: 11400000, guid: 6cb2c957d5de3e54c917f73bfc0b7ecb, type: 2}
+  _emptyAmmoClip: {fileID: 8300000, guid: 687068865f2a12744b66becbcd91a6b8, type: 3}
+  _executingLoseOnePartSO: {fileID: 11400000, guid: 2e67c7b595945b749b086e935d7004f1, type: 2}
+  _attackingSO: {fileID: 11400000, guid: befe1f615e805a842b4758e3de91d960, type: 2}
+  _bitingStartedSO: {fileID: 11400000, guid: a3a9e984b99a83347bb5263c310ad653, type: 2}
+  _applyLastPowerUp: {fileID: 11400000, guid: 9c2f56261ad5cf24bb0e096f4c021ff9, type: 2}
+  _attackUINameChangedSO: {fileID: 11400000, guid: 0fa9b7154a8fef947a5c32be9c7feca8, type: 2}
+  _switchingWeaponSO: {fileID: 11400000, guid: 112820d957c6c7a4b9372802d9053386, type: 2}
+  _showWeaponVisualsSO: {fileID: 11400000, guid: 195c4f5aa00ad1e47be1a39b127a6e67, type: 2}
+  _passCooldownValueSO: {fileID: 11400000, guid: 40b86ef2c07e22c408537820989d57c4, type: 2}
+  _firstActionButtonPressedSO: {fileID: 11400000, guid: bca8fafe825f57840b21fe8249cf2104, type: 2}
+  _secondActionButtonPressedSO: {fileID: 11400000, guid: 5a6d6735343aa1443a17d0b2785b498d, type: 2}
+  _attackMeterFilled: {fileID: 11400000, guid: f812996baed463a4caddaa3d27702f11, type: 2}
+  _passNewWeaponIdEventSO: {fileID: 11400000, guid: 262fa2fb18dae4443a5ebfcefce6be67, type: 2}
+  _asyncLoadCompletedSO: {fileID: 11400000, guid: 4021e1a650b9378409c6e422525e5bd8, type: 2}
+--- !u!114 &3905563449963453981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299249861530999456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f56dba460840743ad15a31e490222f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventChannelSO: {fileID: 11400000, guid: e90bf580925aa0849bb3f698f6c2a32b, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7225638646672232850}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _delayInSeconds: 0
+--- !u!114 &3113149723217525422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299249861530999456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f56dba460840743ad15a31e490222f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventChannelSO: {fileID: 11400000, guid: e90bf580925aa0849bb3f698f6c2a32b, type: 2}
+  _response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7225638646672232850}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _delayInSeconds: 0

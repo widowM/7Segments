@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6888381330587375075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4497722814575574966}
+  - component: {fileID: 8675212267870876090}
+  - component: {fileID: 152956455864058411}
+  m_Layer: 0
+  m_Name: Manager_SceneSelector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4497722814575574966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6888381330587375075}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8675212267870876090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6888381330587375075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc2d7b32acfeb64a92972ee8437d162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels:
+  - levelScene: 0_0
+    difficulty: 0
+  - levelScene: 0_1
+    difficulty: 0
+  - levelScene: 0_2
+    difficulty: 0
+  - levelScene: 0_3
+    difficulty: 0
+  - levelScene: 0_4
+    difficulty: 0
+  - levelScene: 0_5
+    difficulty: 0
+  - levelScene: 0_6
+    difficulty: 0
+  - levelScene: 0_7
+    difficulty: 0
+  - levelScene: 0_8
+    difficulty: 0
+  - levelScene: 0_9
+    difficulty: 0
+  - levelScene: 0_10
+    difficulty: 0
+  - levelScene: 0_11
+    difficulty: 0
+  - levelScene: 0_12
+    difficulty: 0
+  - levelScene: 0_13
+    difficulty: 0
+  - levelScene: 0_14
+    difficulty: 0
+  - levelScene: 1_0
+    difficulty: 1
+  - levelScene: 1_1
+    difficulty: 1
+  - levelScene: 1_2
+    difficulty: 1
+  - levelScene: 1_3
+    difficulty: 1
+  - levelScene: 1_4
+    difficulty: 1
+  - levelScene: 1_5
+    difficulty: 1
+  - levelScene: 1_6
+    difficulty: 1
+  - levelScene: 1_7
+    difficulty: 1
+  - levelScene: 1_8
+    difficulty: 1
+  - levelScene: 1_9
+    difficulty: 1
+  - levelScene: 1_10
+    difficulty: 1
+  - levelScene: 1_11
+    difficulty: 1
+  - levelScene: 1_12
+    difficulty: 1
+  - levelScene: 1_13
+    difficulty: 1
+  - levelScene: 1_14
+    difficulty: 1
+  - levelScene: 2_0
+    difficulty: 2
+  - levelScene: 2_1
+    difficulty: 2
+  - levelScene: 2_2
+    difficulty: 2
+  - levelScene: 2_3
+    difficulty: 2
+  - levelScene: 2_4
+    difficulty: 2
+  - levelScene: 2_5
+    difficulty: 2
+  - levelScene: 2_6
+    difficulty: 2
+  - levelScene: 2_7
+    difficulty: 2
+  - levelScene: 2_8
+    difficulty: 2
+  _loadSceneByNameSO: {fileID: 11400000, guid: 1e772c4555d38b0448c166ad3b2f9391, type: 2}
+  _updateLevelTitleText: {fileID: 11400000, guid: 251f134a8b8a32b4a96adc617d4c8000, type: 2}
+  _gameFinishedScreenShownSO: {fileID: 11400000, guid: 8ff8b465e7a79cd48b76013af285a12d, type: 2}
+  _selectInitialSceneSO: {fileID: 11400000, guid: ab4aba6c0aaaddd4991ffb14c3762961, type: 2}
+  _selectNextSceneSO: {fileID: 11400000, guid: adc33a133a875ce47a42949c928b0ce4, type: 2}
+  _resetSceneSO: {fileID: 11400000, guid: b84c8b59b2d4ce044a2d091d92d0419d, type: 2}
+--- !u!114 &152956455864058411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6888381330587375075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854dbcaed97ef9048953c1e3309f899c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

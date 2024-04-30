@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - OutOfBounds
+  - Arrow
+  - Head
+  - WormSegment
+  - ConnectableWormSegment
+  - Environment
+  - SpawnPoint
+  - Rooms
+  - BulletRange
+  - HeadCenter
+  - SpawnArea
+  - Wall
+  - Enemy
+  - HeadMagnet
+  - WormConnectableFactory
+  - WormDisconnectedFactory
+  - POOLS
+  - WormJaws
+  - FxTemporaire
+  - Weapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - SpawnArea
+  - Water
+  - UI
+  - WormSegment
+  - Head
+  - Environment
+  - Arrow
+  - DisconnectedSegment
+  - WormProjectile
+  - BulletRange
+  - PowerUp
+  - Enemy
+  - HeadMagnet
+  - Bounds
+  - Weapon
+  - Soul
+  - SoulMagnet
+  - Bomb
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 228517995
+    locked: 0
+  - name: AboveAll
+    uniqueID: 114296953
+    locked: 0

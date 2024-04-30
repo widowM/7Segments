@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5871900043845364997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5871900043845364994}
+  - component: {fileID: 5871900043845364995}
+  - component: {fileID: 5658395027919930884}
+  m_Layer: 0
+  m_Name: ObjectiveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5871900043845364994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871900043845364997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5871900043845364995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871900043845364997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f094d28a9ae8d744ab1fd771132eec7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Objectives: []
+  m_AllObjectivesCompleted: {fileID: 11400000, guid: 8b04252c5c08f37429a0cd102f4bfe15, type: 2}
+  m_GameStarted: {fileID: 11400000, guid: a178555e7bf6a5c42adfc25dc60f6cce, type: 2}
+  m_ObjectiveCompleted: {fileID: 11400000, guid: a53c59b804f78bf43aab59e75997545d, type: 2}
+--- !u!114 &5658395027919930884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871900043845364997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297917a967f1f7c4fbf332ece561f5ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: "The game holds a list of objectives that must be fulfilled before reaching
+    the game-over or win state. Currently, the only defined objective is ScoreObjective,
+    but it can be combined with other objectives for more flexibility in determining
+    how to end the game. \n\nFor example, this could include collecting items, reaching
+    specific locations, defeating a certain number of enemies, etc. A TimedDurationObjective
+    could be added to end the game after a certain number of seconds. The ScoreObjective
+    would then return the highest score once the TimesUpEventChannel is triggered."

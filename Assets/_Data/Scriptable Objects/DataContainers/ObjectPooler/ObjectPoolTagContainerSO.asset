@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6cd4082d3d04c240829e3983df9da4a, type: 3}
+  m_Name: ObjectPoolTagContainerSO
+  m_EditorClassIdentifier: 
+  _wormSegmentDefaultTagSO: {fileID: 11400000, guid: 6475740a7ae1fd6478a5e705fb2b48f4, type: 2}
+  _wormSegmentConnectableTagSO: {fileID: 11400000, guid: a1e7f5173625f954498a3333588b8d9d, type: 2}
+  _wormSegmentDisconnectedTagSO: {fileID: 11400000, guid: 1cc03ee624a59ca46b5b91cca392da38, type: 2}
+  _wormProjectileTagSO: {fileID: 11400000, guid: d24845a950f10e14a87fa983514f02ca, type: 2}
+  _wormStareLineTagSO: {fileID: 11400000, guid: 64c48919c674db043b1dd76088276396, type: 2}
+  _enemyDefaultTagSO: {fileID: 11400000, guid: 1184c6ce106180b4083c8ab52f75ce97, type: 2}
+  _redArrowTagSO: {fileID: 11400000, guid: 5076ae56ff58865418dae31e26d6fea1, type: 2}
+  _impactParticleTagSO: {fileID: 11400000, guid: 841ee9ea19e033842b48ae087fb5007f, type: 2}
+  _bloodSplatTagsSOs:
+  - {fileID: 11400000, guid: cb17536acd56d5e48b437658b3115ee4, type: 2}
+  - {fileID: 11400000, guid: 0d1fd022f5daf534b9e438b756abcc61, type: 2}
+  - {fileID: 11400000, guid: 80d4909578a9a16459a1521c14f18952, type: 2}
+  - {fileID: 11400000, guid: 0764d81b44a922e489407849afb76555, type: 2}
+  - {fileID: 11400000, guid: 1ab5085d2aae46c45a51471ba9ac3efc, type: 2}
+  - {fileID: 11400000, guid: 30ed34d127ed1ef4887e4a91cefbf73a, type: 2}
+  _redAppleTagSO: {fileID: 11400000, guid: d83c42b34a8d1de4e91c0342e3a63561, type: 2}
+  _goldenAppleTagSO: {fileID: 11400000, guid: 4c210c7bdded8eb45a082b2a220cc200, type: 2}

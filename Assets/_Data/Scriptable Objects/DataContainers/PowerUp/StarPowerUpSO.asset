@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ff5108a2ee1df40acc61965d54a53b, type: 3}
+  m_Name: StarPowerUpSO
+  m_EditorClassIdentifier: 
+  _animationDurationMin: 0.3
+  _animationDurationMax: 0.5
+  _icon: {fileID: 21300000, guid: cbb2f39e9084b5c4987b29670fa60d59, type: 3}
+  _powerUpName: Star
+  _color: {r: 1, g: 1, b: 1, a: 0.78039217}
+  _pickupClip: {fileID: 8300000, guid: 7a87d6d2a5891574fbeabb25dd65d442, type: 3}
+  _appliedPowerUpSO: {fileID: 11400000, guid: 8d640ff375a533d47bca6bde57424358, type: 2}

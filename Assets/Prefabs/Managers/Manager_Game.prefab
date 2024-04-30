@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3124749985521983017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1682272023276067572}
+  - component: {fileID: 4310581477122167494}
+  - component: {fileID: 378251885308861820}
+  - component: {fileID: 1750433714130152312}
+  m_Layer: 0
+  m_Name: Manager_Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1682272023276067572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3124749985521983017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4310581477122167494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3124749985521983017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6501617e11695214ebf7a44dbcecdfa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoStart: 0
+  _gameStartedSO: {fileID: 11400000, guid: a178555e7bf6a5c42adfc25dc60f6cce, type: 2}
+  _gameEndedSO: {fileID: 11400000, guid: e90bf580925aa0849bb3f698f6c2a32b, type: 2}
+  _sceneUnloadedSO: {fileID: 11400000, guid: d4e7ecca431341e449d4b1da2af7e66f, type: 2}
+  _homeScreenShownSO: {fileID: 11400000, guid: f47586212f1a11d4786724a5f47e7954, type: 2}
+  _gameplayScreenShownSO: {fileID: 11400000, guid: cf54768ed81a9ab4c8cd46c33ec1900c, type: 2}
+  _startCreatingLevel: {fileID: 11400000, guid: b245be84a23085243ab5b2787c3f61ae, type: 2}
+  _worldGeneratedSO: {fileID: 11400000, guid: b7257ea8958240744b4f108bc535988c, type: 2}
+  _allObjectivesCompletedSO: {fileID: 11400000, guid: 8b04252c5c08f37429a0cd102f4bfe15, type: 2}
+  _gameResetSO: {fileID: 11400000, guid: d09702d03e9e9bf41a06878cb64f02cf, type: 2}
+  _isPausedSO: {fileID: 11400000, guid: c07a75f859dfb0040902645a1385f0e0, type: 2}
+  _gameQuitSO: {fileID: 11400000, guid: 9c97d1a7bd13c89438c5e763846af019, type: 2}
+  _asyncSceneLoadCompletedSO: {fileID: 11400000, guid: 4021e1a650b9378409c6e422525e5bd8, type: 2}
+--- !u!114 &378251885308861820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3124749985521983017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297917a967f1f7c4fbf332ece561f5ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: "The GameManager manages the progression of the game and does not directly
+    access gameplay GameObjects. Instead, it communicates with any interested objects
+    through event channels. \n\nAdditionally, the GameManager listens for events
+    from other objects, such as when a ball hits a goal or the win condition is met."
+--- !u!114 &1750433714130152312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3124749985521983017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297917a967f1f7c4fbf332ece561f5ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: "The GameSetup component handles instantiating the Paddles and Ball.  \n\nChoose
+    Mode: ScriptableObject to select a LevelLayout asset or Choose Mode: Json to
+    convert a saved JSON file. This allows the user to mod the level layout file
+    outside of the Editor."

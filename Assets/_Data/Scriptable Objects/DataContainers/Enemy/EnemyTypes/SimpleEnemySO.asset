@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffacb3b94c81c984d80285b8fe6643ad, type: 3}
+  m_Name: SimpleEnemySO
+  m_EditorClassIdentifier: 
+  _defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  _totalHp: 2
+  _knockbackAmount: 0.05
+  _impactSfx: {fileID: 8300000, guid: c657504b0bb70ee428d4ae653858d60e, type: 3}
+  _impactSfxVolume: 0.4

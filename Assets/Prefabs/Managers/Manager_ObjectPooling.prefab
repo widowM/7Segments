@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5573632337525783552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209268718564105487}
+  - component: {fileID: 2985661102217785652}
+  - component: {fileID: 1348017243880329549}
+  m_Layer: 0
+  m_Name: Manager_ObjectPooling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209268718564105487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5573632337525783552}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2985661102217785652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5573632337525783552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30373c9c3e6c044fa80e5c4a7b90ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shouldExpandPools: 1
+  _shouldSpawnSavedObjects: 1
+  _worldGeneratedSO: {fileID: 11400000, guid: b7257ea8958240744b4f108bc535988c, type: 2}
+  _poolsList:
+  - prefab: {fileID: 7533542911517891742, guid: 586c30ea074f98748b1c9ea8ee2e2a03, type: 3}
+    tag: {fileID: 11400000, guid: cb17536acd56d5e48b437658b3115ee4, type: 2}
+    size: 5
+  - prefab: {fileID: 6823291512377659013, guid: b9ac1b254aabe2e45bd5e1987e0f3ada, type: 3}
+    tag: {fileID: 11400000, guid: 0d1fd022f5daf534b9e438b756abcc61, type: 2}
+    size: 10
+  - prefab: {fileID: 6129876292153342572, guid: 99dd383943fccb24ab779b4ff44404f9, type: 3}
+    tag: {fileID: 11400000, guid: 80d4909578a9a16459a1521c14f18952, type: 2}
+    size: 10
+  - prefab: {fileID: 9147184246748702057, guid: 0c500e758514e564186981413e5f69ed, type: 3}
+    tag: {fileID: 11400000, guid: 0764d81b44a922e489407849afb76555, type: 2}
+    size: 5
+  - prefab: {fileID: 4363795045636374966, guid: 662f44cfdb922054b9a7baf63a3739fd, type: 3}
+    tag: {fileID: 11400000, guid: 1ab5085d2aae46c45a51471ba9ac3efc, type: 2}
+    size: 5
+  - prefab: {fileID: 6843479098526812761, guid: d6b3116c22512a34d896d6534236a4bd, type: 3}
+    tag: {fileID: 11400000, guid: 30ed34d127ed1ef4887e4a91cefbf73a, type: 2}
+    size: 5
+  - prefab: {fileID: 7630734386623968178, guid: 3fd764a80e74c724dab4e26989256e1c, type: 3}
+    tag: {fileID: 11400000, guid: a1e7f5173625f954498a3333588b8d9d, type: 2}
+    size: 5
+  - prefab: {fileID: 4069713661914636535, guid: b8bd2f0374ae703498d4bfa10775a9ea, type: 3}
+    tag: {fileID: 11400000, guid: 6475740a7ae1fd6478a5e705fb2b48f4, type: 2}
+    size: 7
+  - prefab: {fileID: 4539996184368466735, guid: 079a15c19433c8b4e836e9585b09eaec, type: 3}
+    tag: {fileID: 11400000, guid: 1cc03ee624a59ca46b5b91cca392da38, type: 2}
+    size: 100
+  - prefab: {fileID: 7027081123209356942, guid: a18d485c68191464884d4eaae129cc1b, type: 3}
+    tag: {fileID: 11400000, guid: 64c48919c674db043b1dd76088276396, type: 2}
+    size: 10
+  - prefab: {fileID: 7093454742834970282, guid: 224e347d0ee06d445b500e9522120d41, type: 3}
+    tag: {fileID: 11400000, guid: 9a9cd07304025354c93dab1df0a09c23, type: 2}
+    size: 0
+  - prefab: {fileID: 2116228014964938181, guid: b14d0bfe6b75fec44aa242fa6d6ce631, type: 3}
+    tag: {fileID: 11400000, guid: 1184c6ce106180b4083c8ab52f75ce97, type: 2}
+    size: 5
+  - prefab: {fileID: 3714692294754220975, guid: e9f81da7b2654db49aab1cfa6126585b, type: 3}
+    tag: {fileID: 11400000, guid: 841ee9ea19e033842b48ae087fb5007f, type: 2}
+    size: 5
+  - prefab: {fileID: 4539996184368466735, guid: 31209ef687051d94e8347390ead4be71, type: 3}
+    tag: {fileID: 11400000, guid: d24845a950f10e14a87fa983514f02ca, type: 2}
+    size: 6
+  - prefab: {fileID: 4323206628750945866, guid: 55056f2f29af8024ba157f40916d4d50, type: 3}
+    tag: {fileID: 11400000, guid: dbacc695c65fc2145a8c88499dcb56f6, type: 2}
+    size: 15
+  - prefab: {fileID: 5942273299347658552, guid: 47e947f27aec08945a15b3bc7fc54b10, type: 3}
+    tag: {fileID: 11400000, guid: d83c42b34a8d1de4e91c0342e3a63561, type: 2}
+    size: 10
+  - prefab: {fileID: 1936249961536163477, guid: f7e12a70d1733d447bcebae62eeaee66, type: 3}
+    tag: {fileID: 11400000, guid: 4c210c7bdded8eb45a082b2a220cc200, type: 2}
+    size: 5
+  - prefab: {fileID: 7486936983871377091, guid: ea18976ccb7523c4baeb5fbd8c26de13, type: 3}
+    tag: {fileID: 11400000, guid: 7cfdfb3d0a16e6142afa6d0fb0f44336, type: 2}
+    size: 6
+  - prefab: {fileID: 2349066378036015387, guid: 356adc718fc5cad459d1a1e40430adb0, type: 3}
+    tag: {fileID: 11400000, guid: 5027b823e0c5d5c4393e9db66631094a, type: 2}
+    size: 5
+  - prefab: {fileID: 3162561616737154032, guid: 946a06e5b64c4ef4dbc44d55dbc4d35d, type: 3}
+    tag: {fileID: 11400000, guid: a4b376331df578045b97ce7bcefa2c47, type: 2}
+    size: 15
+  - prefab: {fileID: 4759377862797930871, guid: 83ba392275242e04dafee8b5ff3944e7, type: 3}
+    tag: {fileID: 11400000, guid: 299cc91af0016dc4f909d3b9789e64b1, type: 2}
+    size: 5
+  - prefab: {fileID: 6632224418999912343, guid: 698cde57e07311041b8099cbb819620f, type: 3}
+    tag: {fileID: 11400000, guid: 6cb2c957d5de3e54c917f73bfc0b7ecb, type: 2}
+    size: 40
+  - prefab: {fileID: 1794135021665779767, guid: 1bc8131004401924fb5cf5bb08d386e1, type: 3}
+    tag: {fileID: 11400000, guid: fc5a6c7428c58964f8bfac17a29d4481, type: 2}
+    size: 40
+  - prefab: {fileID: 5425343138200284342, guid: 690210bafb8f1874d85bb2c621040f8a, type: 3}
+    tag: {fileID: 11400000, guid: 8a310fee9e314b442ada7f1f68d55263, type: 2}
+    size: 40
+  - prefab: {fileID: 4944909870452493450, guid: 7b43e235caac8b54bbd36031081d1d74, type: 3}
+    tag: {fileID: 11400000, guid: 40250f10deee7da45987b7d91049a77b, type: 2}
+    size: 40
+--- !u!114 &1348017243880329549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5573632337525783552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297917a967f1f7c4fbf332ece561f5ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: This object pooler also executes in edit mode. It is also capable of clearing
+    pools and recreating pools from scratch by using the corresponding buttons in
+    the inspector.

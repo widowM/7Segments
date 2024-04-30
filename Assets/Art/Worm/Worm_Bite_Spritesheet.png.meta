@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 870f779e899e8fc42b043aed7f8a244a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 35, y: 204}
+        - {x: 8, y: 225}
+        - {x: -61.5, y: 230.50003}
+        - {x: -136.5, y: 200.50003}
+        - {x: -214.5, y: 119.50003}
+        - {x: -241.5, y: 41.50003}
+        - {x: -241.5, y: -60.49997}
+        - {x: -214.5, y: -138.49997}
+        - {x: -136.5, y: -219.49997}
+        - {x: -76.5, y: -246.49997}
+        - {x: -43.5, y: -249.49997}
+        - {x: 39, y: -245}
+      tessellationDetail: 0.18
+      bones: []
+      spriteID: 61ec7a344f76768468035a4aad8d7600
+      internalID: 1647836366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 53.000015, y: -72.49997}
+        - {x: 42, y: -32}
+        - {x: 48, y: -19}
+        - {x: 107.000015, y: 188.50003}
+        - {x: 80.000015, y: 218.50003}
+        - {x: 50.000015, y: 230.50003}
+        - {x: -51.999985, y: 230.50003}
+        - {x: -132.99998, y: 203.50003}
+        - {x: -201.99998, y: 134.50003}
+        - {x: -237.99998, y: 50.50003}
+        - {x: -237.99998, y: -63.49997}
+        - {x: -225.99998, y: -102.49997}
+        - {x: -189.99998, y: -162.49997}
+        - {x: -138.99998, y: -210.49997}
+        - {x: -63.999985, y: -249.49997}
+        - {x: 59.000015, y: -249.49997}
+        - {x: 83.000015, y: -240.49997}
+        - {x: 95, y: -210}
+      tessellationDetail: 0.18
+      bones: []
+      spriteID: f5e2b0bc88b4ddd41a2d257f921aaaf7
+      internalID: 1353847311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 118, y: -138}
+        - {x: 68, y: -70}
+        - {x: 46, y: -8}
+        - {x: 84, y: 72}
+        - {x: 114, y: 127}
+        - {x: 150, y: 161}
+        - {x: 50.50003, y: 230.50003}
+        - {x: -48.49997, y: 230.50003}
+        - {x: -129.49997, y: 203.50003}
+        - {x: -201.49997, y: 140.50003}
+        - {x: -240.49997, y: 47.50003}
+        - {x: -240.49997, y: -69.49997}
+        - {x: -198.49997, y: -165.49997}
+        - {x: -126.49997, y: -219.49997}
+        - {x: -66.49997, y: -249.49997}
+        - {x: 68.50003, y: -249.49997}
+        - {x: 134, y: -214}
+        - {x: 145, y: -182}
+      tessellationDetail: 0.18
+      bones: []
+      spriteID: 9f1c231774f5e8946a58d8ef4b97369e
+      internalID: -1259736808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 184, y: -139}
+        - {x: 40, y: -3}
+        - {x: 178, y: 102}
+        - {x: 172, y: 154}
+        - {x: 105, y: 205}
+        - {x: 4, y: 227}
+        - {x: -126, y: 197}
+        - {x: -227, y: 78}
+        - {x: -235, y: -66}
+        - {x: -195, y: -150}
+        - {x: -140, y: -211}
+        - {x: -37, y: -250}
+        - {x: 112, y: -227}
+        - {x: 171, y: -177}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21921d6e65145e4296085790d212e31
+      internalID: -31167352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 206, y: 61}
+        - {x: 204, y: 113}
+        - {x: 165, y: 159}
+        - {x: 57, y: 216}
+        - {x: -76, y: 215}
+        - {x: -155, y: 163}
+        - {x: -204, y: 109}
+        - {x: -229, y: 50}
+        - {x: -221, y: -88}
+        - {x: -181, y: -156}
+        - {x: -119, y: -216}
+        - {x: -10, y: -245}
+        - {x: 90, y: -234}
+        - {x: 155, y: -184}
+        - {x: 212, y: -127}
+        - {x: 209, y: -81}
+        - {x: 42, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee9b70fbba4a1b45811e8d0d49220b2
+      internalID: -94033224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 223, y: 47}
+        - {x: 212, y: 94}
+        - {x: 182, y: 149}
+        - {x: 77, y: 210}
+        - {x: -89, y: 214}
+        - {x: -197, y: 121}
+        - {x: -223, y: 56}
+        - {x: -223, y: -87}
+        - {x: -170, y: -171}
+        - {x: -72, y: -233}
+        - {x: 1, y: -244}
+        - {x: 109, y: -216}
+        - {x: 194, y: -141}
+        - {x: 218, y: -92}
+        - {x: 229, y: -51}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2183b115d0a244a8a2b4f8e8a75e4b
+      internalID: 47115890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 128, y: 187}
+        - {x: 80, y: 218}
+        - {x: -22, y: 221}
+        - {x: -119, y: 192}
+        - {x: -217, y: 87}
+        - {x: -226, y: -65}
+        - {x: -179, y: -164}
+        - {x: -90, y: -227}
+        - {x: 65, y: -239}
+        - {x: 177, y: -164}
+        - {x: 229, y: -84}
+        - {x: 221, y: 71}
+      tessellationDetail: 0.1
+      bones: []
+      spriteID: 742982a36352da04ebf25b9ec6a7c45f
+      internalID: 1417498599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 128, y: 187}
+        - {x: 80, y: 218}
+        - {x: -22, y: 221}
+        - {x: -119, y: 192}
+        - {x: -217, y: 87}
+        - {x: -226, y: -65}
+        - {x: -179, y: -164}
+        - {x: -90, y: -227}
+        - {x: 65, y: -239}
+        - {x: 177, y: -164}
+        - {x: 229, y: -84}
+        - {x: 221, y: 71}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb3fe945afdca4429c67a07919f8230
+      internalID: 562465347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm_Bite_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 128, y: 187}
+        - {x: 80, y: 218}
+        - {x: -22, y: 221}
+        - {x: -119, y: 192}
+        - {x: -217, y: 87}
+        - {x: -226, y: -65}
+        - {x: -179, y: -164}
+        - {x: -90, y: -227}
+        - {x: 65, y: -239}
+        - {x: 177, y: -164}
+        - {x: 229, y: -84}
+        - {x: 221, y: 71}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa6a27a80fa0c4ca9042111bceb06b
+      internalID: 1123826337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Worm_Bite_Spritesheet_0: 1647836366
+      Worm_Bite_Spritesheet_1: 1353847311
+      Worm_Bite_Spritesheet_2: -1259736808
+      Worm_Bite_Spritesheet_3: -31167352
+      Worm_Bite_Spritesheet_4: -94033224
+      Worm_Bite_Spritesheet_5: 47115890
+      Worm_Bite_Spritesheet_6: 1417498599
+      Worm_Bite_Spritesheet_7: 562465347
+      Worm_Bite_Spritesheet_8: 1123826337
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

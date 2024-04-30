@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ErrorProne.NET.CoreAnalyzers</id>
+    <version>0.1.2</version>
+    <authors>Sergey Teplyakov</authors>
+    <owners>Sergey Teplyakov</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>https://github.com/SergeyTeplyakov/ErrorProne.NET/blob/master/LICENSE</licenseUrl>
+    <description>Core .NET analyzers for detecting the most common coding issues</description>
+    <releaseNotes>* EPC11: warns when Equals method is potentially implemented incorrectly.
+* EPC12: warns when generic exception instance is not fully observed (only `Message` was accessed in catch block).
+* EPC13: warns when possible-like result is not observed.
+* EPC14: warns when `ConfigureAwait(false)` is used even though a project is configured not to use it.
+* EPC15: warns when `ConfigureAwait(false)` is not used on an awaited task but a project is configured to always use it.
+* EPC16: null-conditional operator is used in await expression causing NRE if a task is null.</releaseNotes>
+    <copyright>Copyright Sergey Teplyakov</copyright>
+    <tags>ErrorProne.NET, analyzers</tags>
+    <repository url="https://github.com/SergeyTeplyakov/ErrorProne.NET/" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.3" />
+    </dependencies>
+  </metadata>
+</package>

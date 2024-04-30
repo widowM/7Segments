@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7980456054467308349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7980456054467308291}
+  - component: {fileID: 7980456054467308290}
+  - component: {fileID: 7980456054467308293}
+  - component: {fileID: 7980456054467308295}
+  - component: {fileID: 7980456054467308299}
+  - component: {fileID: 7980456054467308288}
+  - component: {fileID: 7980456054467308289}
+  - component: {fileID: 7980456054467308297}
+  - component: {fileID: 7980456054467308294}
+  - component: {fileID: 7980456054467308298}
+  - component: {fileID: 2352781834220347382}
+  - component: {fileID: 7980456054467308292}
+  m_Layer: 0
+  m_Name: WormPlayer
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7980456054467308291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7980456054467308290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bb2d0a24dafcb4684647e195c78817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_WormData: {fileID: 11400000, guid: 559c7348d0287f046bda9f3e39895b39, type: 2}
+  m_WormBuilder: {fileID: 7980456054467308295}
+  m_WormInput: {fileID: 7980456054467308288}
+  m_WormMovement: {fileID: 7980456054467308289}
+  m_WormLogic: {fileID: 7980456054467308294}
+--- !u!114 &7980456054467308293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab628d756cb76844bbd86c458fed96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: Exposing some important values for easier gameplay testing and fine tuning.
+    "Worm" script is the script that connects all the player scripts (input, movement,
+    logic, initialization)
+--- !u!114 &7980456054467308295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217ad6f40f1f03e41b7788e2d79a87d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Worm: {fileID: 7980456054467308290}
+  m_CinemachineCamera: {fileID: 0}
+--- !u!114 &7980456054467308299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab628d756cb76844bbd86c458fed96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: '"Worm Builder" is the script that initializes the worm in scene, spawning
+    the head and placing the worm segments one after another. Also adding them in
+    the collections of the WormDataSO'
+--- !u!114 &7980456054467308288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebaa4caded3ca5e4bbe418dfe5fe0a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _worm: {fileID: 7980456054467308290}
+--- !u!114 &7980456054467308289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f317ccd46d47ff340a5f37ab32a52cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _worm: {fileID: 7980456054467308290}
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &7980456054467308297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab628d756cb76844bbd86c458fed96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: WormMovement script is responsible for the movement of the worm. Also for
+    the freezing of movement when the worm's head is facing any of the worm's segments.
+--- !u!114 &7980456054467308294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f452d4eb21ced64685bc2071e8858df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _worm: {fileID: 7980456054467308290}
+  power: 500
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_WormSegmentConnected: {fileID: 11400000, guid: db8becfc9f9487c40a965af476b79780, type: 2}
+  m_WormSegmentDisconnected: {fileID: 11400000, guid: 00731288435d23843bce1166f538a3a3, type: 2}
+--- !u!114 &7980456054467308298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab628d756cb76844bbd86c458fed96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: WormLogic script is responsible for the attachment and the detachment of
+    worm's parts.
+--- !u!114 &2352781834220347382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2588a615648f86341addb7bd54bced09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7980456054467308292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7980456054467308349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b9f5843d66f745747a6ff055c5888268, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Mouse & Keyboard
+  m_DefaultActionMap: Gameplay
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
