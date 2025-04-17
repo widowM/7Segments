@@ -1,8 +1,8 @@
 # 7Segments
-Example Unity Project featuring level editor tools to speed up development.
+Example Unity Project featuring editor tools to speed up development.
 
-<img width="686" alt="Unity_9WshiOLqfu" src="https://github.com/user-attachments/assets/3f56f2a3-75b9-4bf6-929c-b2b6a39f1018" />
-<img width="686" alt="Unity_Zk8Ol5gxVy" src="https://github.com/user-attachments/assets/d8f2aa42-7f01-44fd-8d22-1387070ccb7f" />
+<img width="686" alt="Unity_jbCvxjWVL7" src="https://github.com/user-attachments/assets/e2a2b39b-bdbf-4fb2-b036-978de9f24b59" />
+<img width="686" alt="Unity_GYWfmchIIZ" src="https://github.com/user-attachments/assets/ad0e153f-9a5b-49a6-878c-0d6210c674bb" />
 
 Windows Build ->
 https://widowm.itch.io/7-segments
